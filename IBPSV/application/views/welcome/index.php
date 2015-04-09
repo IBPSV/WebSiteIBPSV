@@ -330,6 +330,6 @@
         <script src=<?php echo base_url("resource/views/welcome/js/vendor/jquery-1.10.2.min.js") ?>></script>
         <script src=<?php echo base_url("resource/views/welcome/js/plugins.js") ?>></script>
         <script src=<?php echo base_url("resource/views/welcome/js/main.js") ?>></script>
-		<!-- templatemo 439 rectangle -->
+	
     </body>
 </html>

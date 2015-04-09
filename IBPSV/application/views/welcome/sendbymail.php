@@ -1,11 +1,11 @@
 <?php
 if(isset($_POST['email'])) {
 // info@ibpsv.com
-// Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
+// 
 $email_to = "netoangel105@hotmail.com";
 $email_subject = "Contacto desde el sitio web";
 
-// Aquí se deberían validar los datos ingresados por el usuario
+//  validar 
 if(!isset($_POST['fname']) ||
 
 !isset($_POST['email']) ||
@@ -25,7 +25,7 @@ $email_message .= "Asunto: " . $_POST['subjet'] . "\n";
 $email_message .= "Comentarios: " . $_POST['comments'] . "\n\n";
 
 
-// Ahora se envía el e-mail usando la función mail() de PHP
+//  función mail() de PHP
 // 
 // 
 // 
